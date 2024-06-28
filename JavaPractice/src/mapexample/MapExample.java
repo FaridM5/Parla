@@ -32,7 +32,9 @@ class Performance{
     public void setPerformance(int performance) {
         this.performance = performance;
     }
+
 }
+
 
 public class MapExample {
     public static void main(String[] args){

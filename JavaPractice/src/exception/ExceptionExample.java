@@ -1,7 +1,7 @@
 package exception;
 
 public class ExceptionExample {
-    public static void main(String[] args) throws MyCustomException{
+    public static void main(String[] args) throws MyCustomException, RuntimeException{
         int[] exampleArray = new int[10];
 
         int cntr = 0;
@@ -55,6 +55,14 @@ public class ExceptionExample {
             }
         } catch (MyCustomException e) {
             e.displayMessage();
+        }
+
+        try{
+            int a = 5;
+            int b = a/0;
+
+        }catch (Exception e){
+            System.out.println(e + "That exception is general Exception is caught");
         }
     }
 }

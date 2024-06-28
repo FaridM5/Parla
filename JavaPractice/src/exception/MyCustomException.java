@@ -12,6 +12,6 @@ public class MyCustomException extends RuntimeException{
     }
 
     void displayMessage(){
-        System.out.println("The String is found to be null." + '\n' + "Exception Thrown by the Custom Exception");
+        System.out.println("The String is found to be null." + '\n' + "Exception Thrown by the Custom Exception" + '\n');
     }
 }
