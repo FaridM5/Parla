@@ -1,4 +1,4 @@
-package coffeshop;
+package com.practice.java.coffeshop;
 
 import java.util.Scanner;
 

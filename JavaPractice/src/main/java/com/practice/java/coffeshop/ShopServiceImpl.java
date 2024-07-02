@@ -1,4 +1,4 @@
-package coffeshop;
+package com.practice.java.coffeshop;
 
 public class ShopServiceImpl implements Shop{
 

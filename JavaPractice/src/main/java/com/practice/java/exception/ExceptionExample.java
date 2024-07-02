@@ -1,4 +1,4 @@
-package exception;
+package com.practice.java.exception;
 
 public class ExceptionExample {
     public static void main(String[] args) throws MyCustomException, RuntimeException{

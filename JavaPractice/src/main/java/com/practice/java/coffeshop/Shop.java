@@ -1,4 +1,4 @@
-package coffeshop;
+package com.practice.java.coffeshop;
 
 public abstract interface Shop {
 

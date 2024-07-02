@@ -1,4 +1,4 @@
-package coffeshop;
+package com.practice.java.coffeshop;
 
 public enum Coffee {
     LATTE(3.5, "Latte", "Medium"),

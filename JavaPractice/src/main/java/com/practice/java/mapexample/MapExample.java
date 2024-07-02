@@ -1,4 +1,4 @@
-package mapexample;
+package com.practice.java.mapexample;
 
 import java.util.*;
 
