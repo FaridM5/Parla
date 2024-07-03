@@ -6,10 +6,12 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class RandomEntity {
-    public String randomName;
-    public String randomSurname;
+    private String randomName;
+    private String randomSurname;
     private int age;
     private int anyNumber;
+
+    private Function function;
 
     public void setAge(int age){
         if(age<0){
@@ -29,5 +31,13 @@ public class RandomEntity {
 //        System.out.printf("%s%s\n",firstInitial,secondInitial);
         String result = (String.valueOf(firstInitial) + secondInitial);
         return result;
+    }
+
+    public int addition(int age, int anyNumber){
+        return age+anyNumber;
+    }
+
+    public long recursion(long number){
+        return function.myFunction(number);
     }
 }
